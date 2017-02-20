@@ -60,7 +60,8 @@ h1{
 
 .cup_image{
   float:left;
-  margin-right: 20px;}
+  margin-right: 20px;
+  margin-bottom: 15px; }
 
 .heart_image{
   float: right;
@@ -80,16 +81,16 @@ article p{
   font-weight: 400;
   text-align: left;}
 
-.p1{
+p:nth-child(2){
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: 14px;}
 
-.p2{
+p:nth-child(3){
   margin-top: 0px;
   margin-bottom: 0px;}
 
-.p3{
+p:nth-child(5){
   margin-top: 17px;}
 
 ul{
@@ -109,7 +110,7 @@ li:after{
   height: 0;
   visibility: hidden;}
 
-.foot_image{
+li img{
   float:left;
   margin-right: 70px;
   margin-bottom: 14px;}
@@ -182,7 +183,7 @@ footer{
   width: 89px auto;
   height: 71px;}
 
-.share_logs_img{
+nav img {
   margin-left: 7px;
   margin-top: 0px;
   margin-bottom: 16px;}
